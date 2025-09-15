@@ -44,6 +44,17 @@ go build -o build/bin/geth ./cmd/geth
 ./build/bin/geth --networkid 757 --datadir ./data --http --http.api "eth,net,web3,miner"
 ```
 
+### 🔧 Official Peer List
+```
+enode://940fa2f88bd7d9fba64b0763216370adae3a1d5c960865f91e7803f30746871617682d13d1088716789036ac5da064c1c222f4763b847e2bdc15d67aeea7dde3@209.74.80.15:30757
+
+enode://948b52cd2b8123909dcc127785cc6b2e7a45ad577a9ca6cca6e236cb9290818cd8ff7d5e9c4c7cc32791fd8d94a0afcbf53172bcecbbd9c8a3b599b4b0edef1a@167.179.96.193:30757
+
+enode://cb067e7a5499234ae03c7d752b618ec4ec6c1fc0a77ed6a68b552bd590d8641d2a8e894253ebef714118bf8815b401fe25120ca0b560dd9a29fb7248e12f952f@64.176.72.221:30757
+
+enode://c45caa675435f850e6d98200c8b977ff2a91594dea311fdac253b01cba37d8f29a1b13aeb3946131ec65a7cfea87e8c96bb133aeca34c26e59a0ea3f06aa8f3f@45.77.231.99:30757
+```
+
 ### ⛏️ Start mining
 
 ```bash
