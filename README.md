@@ -30,6 +30,8 @@ Miner-focused decentralized layer 1 blockchain: no premine, no dev fees, no inst
 ## 🚀 Getting Started
 
 ### 🔧 Build from source
+
+(To build from source requires Golang **1.20.x** or **1.21.x**)
 ```bash
 git clone https://github.com/ZapChainPoW/go-zap
 cd go-zap
