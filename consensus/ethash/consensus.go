@@ -39,7 +39,7 @@ import (
 
 // Ethash proof-of-work protocol constants.
 var (
-	maxUncles                     = 0                 // Maximum number of uncles allowed in a single block
+	maxUncles                     = 2                 // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTimeSeconds = int64(15)         // Max seconds from current time allowed for blocks, before they're considered future blocks
 
 	// calcDifficultyEip5133 is the difficulty adjustment algorithm as specified by EIP 5133.
